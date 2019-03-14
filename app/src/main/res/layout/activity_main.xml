@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ivy.haihong.com.vipvideo_android.Home.MainActivity">
+
+    <ivy.haihong.com.vipvideo_android.Fragment.TopBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/topbar1"
+        tools:background="#ffffff"
+        custom:buttonMode="both"
+        custom:leftBackground="#888888"
+        custom:leftHeight="40dp"
+        custom:rightHeight="35dp"
+        custom:leftMargin="12dp"
+        custom:leftWidth="40dp"
+        custom:rightWidth="35dp"
+        custom:rightMargin="0dp"
+        custom:rightText=""
+        custom:rightTextColor="@android:color/black"
+        custom:title="Title1"
+        custom:titleTextColor="@android:color/black"
+        custom:titleTextSize="16sp"
+        >
+    </ivy.haihong.com.vipvideo_android.Fragment.TopBar>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_listab"
+        android:backgroundTintMode="multiply"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_first"
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/selector_tab_home"
+            android:text="首页" />
+
+        <RadioButton
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/selector_tab_group"
+            android:text="爱购" />
+
+        <RadioButton
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/selector_tab_hot"
+            android:text="收藏" />
+
+        <RadioButton
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/selector_tab_more"
+            android:text="设置" />
+     </RadioGroup>
+
+</LinearLayout>

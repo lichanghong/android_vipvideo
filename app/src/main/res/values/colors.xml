@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <eat-comment />
+    <color name="blueColor">#007aff</color>
+    <color name="transparent">#0000</color>
+    <color name="weibo_listtab_off">#8d8d8d</color>
+    <color name="white">#fff</color>
+    <!-- From: file:/D:/android%20studio%20workspace/Fragment/fragment/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+</resources>

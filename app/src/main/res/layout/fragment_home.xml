@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ivy.haihong.com.vipvideo_android.Home.TabHomeFragment">
+
+        <ListView
+            android:id="@+id/hotListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#ccc"
+            android:dividerHeight="1dp"
+            >
+        </ListView>
+
+</FrameLayout>
