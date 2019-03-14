@@ -8,7 +8,7 @@
 
 希望对大家有些借鉴意义，更希望您看到了之后还能给个小星星鼓励！哈哈
 
- 同时附上个人开发的安卓版的 https://github.com/lichanghong/vipvide
+ 同时附上个人开发的iOS版的 https://github.com/lichanghong/vipvide
 
 ![avatar](https://github.com/lichanghong/vipvide/blob/master/4950F61771D506A857D106F2173A58A9.png)
 ![avatar](https://github.com/lichanghong/vipvide/blob/master/964AA412D66DEC2686148B5879BDAA04.jpg)
